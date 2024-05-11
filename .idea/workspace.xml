@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c8ab21-edfa-4a1e-b620-9af5482db8d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projekt1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModułEdycyjny/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModułEdycyjny/ModulEdycyjny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModułEdycyjny/PolecenieModulEdycyjny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModułEdycyjny/Zadanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/ModulSprawdzaniaZadan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2g9IPwvbClv5PA2DTfMumxxmCIR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
