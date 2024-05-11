@@ -22,4 +22,18 @@ public interface ModulSprawdzaniaZadan {
              e.printStackTrace();
          }
     }
+    public static void ileRozwiazanZadania(String nazwaZadania){
+
+    }
+    public static void wyswietlWszystkieZadania(){
+
+    }
+    public static void ileZadanNadeslalStudent(String imieStudenta){
+         if(map.containsKey(imieStudenta)){
+             System.out.println("Liczba nadesłanych zadań przez studenta " + imieStudenta + ": " + map.get(imieStudenta).size());
+         }else System.out.println("Nie ma zadań od studenta o podanym imieniu i nazwisku.");
+    }
+    public static void wyswietlWszystkieZadaniaStudneta(String imieStudenta){
+
+    }
 }
