@@ -11,14 +11,15 @@ public class Main implements ModulSprawdzaniaZadan {
         boolean programWlaczony = true;
         while (programWlaczony) {
             System.out.println("Podaj numer polecenia\n1. Liczba otrzymanych rozwiązań konkretnego zadania" +
-                    "\n2. Podgląd wszystkich zadań po kolei\n3. Informacja ile zadań nadesłał konkretny studnet" +
+                    "\n2. Podgląd wszystkich zadań po kolei\n3. Informacja ile zadań nadesłał konkretny student" +
                     "\n4. Podgląd wszystkich zadań konkretnego studenta");
             if (scanner.hasNextInt()) {
                 int odpowiedz = scanner.nextInt();
                 switch (odpowiedz) {
                     case 1 -> {
+                        scanner.nextLine();
                         System.out.println("Podaj nazwe zdania");
-                        String nazwaZadania = scanner.next();
+                        String nazwaZadania = scanner.nextLine();
                         ModulSprawdzaniaZadan.ileRozwiazanZadania(nazwaZadania);
                         break;
                     }
@@ -34,8 +35,9 @@ public class Main implements ModulSprawdzaniaZadan {
                         break;
                     }
                     case 4 -> {
+                        scanner.nextLine();
                         System.out.println("Podaj imię i nazwisko studenta");
-                        String imieStudenta = scanner.next();
+                        String imieStudenta = scanner.nextLine();
                         ModulSprawdzaniaZadan.wyswietlWszystkieZadaniaStudneta(imieStudenta);
                         break;
                     }

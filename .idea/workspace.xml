@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c8ab21-edfa-4a1e-b620-9af5482db8d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/ModulSprawdzaniaZadan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModułSprawdzaniaZadań/ModulSprawdzaniaZadan.java" afterDir="false" />
     </list>

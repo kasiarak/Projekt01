@@ -23,7 +23,14 @@ public interface ModulSprawdzaniaZadan {
          }
     }
     public static void ileRozwiazanZadania(String nazwaZadania){
-
+         int rozwiazaniaZadania = 0;
+         for(String key : map.keySet()){
+             List<Path> list = map.get(key);
+             for(Path path : list){
+                 if(path.getFileName().toString().equalsIgnoreCase(nazwaZadania)) rozwiazaniaZadania++;
+             }
+         }
+        System.out.println("Liczba nadesłanych rozwiązań: " + rozwiazaniaZadania);
     }
     public static void wyswietlWszystkieZadania(){
 
