@@ -93,6 +93,7 @@ public interface ModulEdycyjny {
                     switch (polecenie){
                         case EDYCJA -> {
                             list.get(indeks-1).edytujZadanie();
+                            break;
                         }
                         case PLIK -> {
                             if(list.get(indeks-1).zapisaneDoPliku){
@@ -100,6 +101,7 @@ public interface ModulEdycyjny {
                             }else{
                                 list.get(indeks-1).zapiszDoPliku();
                             }
+                            break;
                         }
                         case POWROT -> {
                             break;
