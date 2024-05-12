@@ -59,7 +59,7 @@ public interface ModulEdycyjny {
             @Override
             public void zapiszDoPliku() {
                 this.zapisaneDoPliku = true;
-                this.scieżkaPliku = "C:\\Users\\annar\\" + nazwa +".txt";
+                this.scieżkaPliku = "C:\\Users\\annar\\" + nazwa +".tex";
                 try(FileWriter fileWriter = new FileWriter(this.scieżkaPliku)){
                     fileWriter.write(this.tresc);
                     System.out.println("Zapisano zadanie do pliku");
