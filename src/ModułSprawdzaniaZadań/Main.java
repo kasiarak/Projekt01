@@ -38,7 +38,7 @@ public class Main implements ModulSprawdzaniaZadan {
                         scanner.nextLine();
                         System.out.println("Podaj imię i nazwisko studenta");
                         String imieStudenta = scanner.nextLine();
-                        ModulSprawdzaniaZadan.wyswietlWszystkieZadaniaStudneta(imieStudenta);
+                        ModulSprawdzaniaZadan.wyswietlWszystkieZadaniaStudenta(imieStudenta);
                         break;
                     }
                     default -> {
