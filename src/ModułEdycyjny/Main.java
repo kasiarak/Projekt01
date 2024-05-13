@@ -14,7 +14,7 @@ public class Main implements ModulEdycyjny{
                if(indeks==0){
                    ModulEdycyjny.dodajNoweZadanie();
                }
-               else {
+               else{
                    ModulEdycyjny.wyswietlZadanie(indeks);
                }
            }else{

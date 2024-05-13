@@ -17,7 +17,7 @@ public interface ModulSprawdzaniaZadan {
     Scanner scanner = new Scanner(System.in);
     HashMap<String, List<Path>> map = new HashMap<>();
      public static void stworzMape(){
-         Path glownyFolder = Paths.get("C:\\Users\\annar\\Zadania");
+         Path glownyFolder = Paths.get("sciezka\\do\\pliku\\z\\zadaniami");
          try{
              List<Path> folderyZNazwiskami = Files.list(glownyFolder).collect(Collectors.toList());
              for(Path folderZNazwiskiem : folderyZNazwiskami){
@@ -32,8 +32,8 @@ public interface ModulSprawdzaniaZadan {
          int rozwiazaniaZadania = 0;
          for(String key : map.keySet()){
              List<Path> folderyZZadaniami = map.get(key);
-             for(Path path : folderyZZadaniami){
-                 if(path.getFileName().toString().equalsIgnoreCase(nazwaZadania)) rozwiazaniaZadania++;
+             for(Path folder : folderyZZadaniami){
+                 if(folder.getFileName().toString().equalsIgnoreCase(nazwaZadania)) rozwiazaniaZadania++;
              }
          }
         System.out.println("Liczba nadesłanych rozwiązań: " + rozwiazaniaZadania);
@@ -87,8 +87,8 @@ public interface ModulSprawdzaniaZadan {
          try {
              if(map.containsKey(imieStudenta)){
                  List<Path> wszystkiePlikiStudenta = new ArrayList<>();
-                 for(Path path : map.get(imieStudenta)){
-                     Files.list(path).forEach(wszystkiePlikiStudenta::add);
+                 for(Path plik : map.get(imieStudenta)){
+                     Files.list(plik).forEach(wszystkiePlikiStudenta::add);
                  }
                  boolean sprawdzanieZadan = true;
                  int indeks = 0;

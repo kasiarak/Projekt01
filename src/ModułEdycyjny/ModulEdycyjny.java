@@ -40,7 +40,6 @@ public interface ModulEdycyjny {
                 }
                 System.out.println("Edytowano zadanie");
             }
-
             @Override
             public void dodajDoFolderu(){
                 System.out.println("Podaj dokładną ścieżkę folderu, do którego chcesz dodać plik z zadaniem");
@@ -55,11 +54,10 @@ public interface ModulEdycyjny {
                     throw new RuntimeException(e);
                 }
             }
-
             @Override
             public void zapiszDoPliku() {
                 this.zapisaneDoPliku = true;
-                this.scieżkaPliku = "C:\\Users\\annar\\" + nazwa +".tex";
+                this.scieżkaPliku = "folder\\z\\zadaniami\\" + nazwa + ".tex";
                 try(FileWriter fileWriter = new FileWriter(this.scieżkaPliku)){
                     fileWriter.write(this.tresc);
                     System.out.println("Zapisano zadanie do pliku");

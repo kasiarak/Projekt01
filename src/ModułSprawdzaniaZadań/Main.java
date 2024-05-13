@@ -45,7 +45,7 @@ public class Main implements ModulSprawdzaniaZadan {
                         System.out.println("Nie ma polecenia o podanym numerze.");
                     }
                 }
-            }else {
+            }else{
                 System.out.println("Nie ma polecenia o podanym numerze.");
                 scanner.next();
             }

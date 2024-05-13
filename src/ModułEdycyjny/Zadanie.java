@@ -10,12 +10,10 @@ abstract public class Zadanie {
         this.tresc = tresc;
         this.zapisaneDoPliku = false;
     }
-
     @Override
     public String toString() {
         return "Zadanie " + "\""+nazwa+"\""+":\n" + tresc;
     }
-
     abstract public void edytujZadanie();
     abstract public void zapiszDoPliku();
     abstract public void dodajDoFolderu();
